@@ -1,7 +1,7 @@
 # 🔍 Nmap Network Scanning Project
 
-## 📌 Description
-This project demonstrates how to perform network scanning using Nmap to identify live hosts, open ports, and services.
+## 📌 Overview
+This project demonstrates network scanning using Nmap to identify live hosts, open ports, and services in a network.
 
 ## 🛠️ Tools Used
 - Kali Linux
@@ -9,31 +9,31 @@ This project demonstrates how to perform network scanning using Nmap to identify
 - Wireshark
 
 ## 🧪 Lab Setup
-- Attacker Machine: Kali Linux
-- Target Machine: Metasploitable
-- Network: Same LAN
+- Attacker: Kali Linux
+- Target: Metasploitable
+- Network: Local Lab Environment
 
-## 🔍 Activities Performed
+## 🔍 Scanning Techniques
 - Host Discovery (-sn, -Pn)
 - TCP Connect Scan (-sT)
 - SYN Scan (-sS)
 - UDP Scan
-- Firewall Detection (ACK Scan)
+- ACK Scan (Firewall Detection)
 
 ## 📊 Key Findings
-- Identified active hosts in the network
-- Detected open ports and running services
-- Analyzed traffic using Wireshark
+- Identified active hosts
+- Detected open ports and services
+- Analyzed network traffic
 
 ## 🚨 Skills Gained
-- Network scanning
-- Reconnaissance
+- Network reconnaissance
+- Port scanning
 - Packet analysis
-- Basic security assessment
+- Security assessment basics
 
 ## 📂 Project Files
-- report.pdf → Detailed report
-- screenshots/ → Evidence of scans
+- report.pdf → Full detailed report
+- screenshots/ → Scan outputs
 
-by
-Avinash karandekar
+## 👨‍💻 Author
+Avinash
